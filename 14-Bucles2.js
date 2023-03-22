@@ -1,18 +1,18 @@
 const datos = [
     {
-        'ciudad':'Bogotá',
+        'ciudad': 'Bogotá',
         'precio': 500
     },
     {
-        'ciudad':'Lima',
+        'ciudad': 'Lima',
         'precio': 400
     },
     {
-        'ciudad':'Santiago',
+        'ciudad': 'Santiago',
         'precio': 380
     },
     {
-        'ciudad':'Montevideo',
+        'ciudad': 'Montevideo',
         'precio': 200
     },
 ];
@@ -33,11 +33,11 @@ do {
         break;
     }
     i++;
-} while(i < datos.length && ciudadSeleccionada == '')
+} while (i < datos.length && ciudadSeleccionada == '')
 
 if (ciudadSeleccionada == '')
     console.log("No tenemos pasajes disponibles");
 else
-    console.log("Puedes comprar pasaje para: "+ciudadSeleccionada);
+    console.log("Puedes comprar pasaje para: " + ciudadSeleccionada);
 
 

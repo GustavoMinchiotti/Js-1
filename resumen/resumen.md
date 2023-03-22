@@ -30,7 +30,9 @@ Sumado a lo de OB agrego el uso de plantillas
 ![img_3.png](img_3.png)
 
 
-## Switch 
+## Switch codigo en la carpeta.
+
+Clase bucles 2 muestra el uso del depurador
 
 
 
